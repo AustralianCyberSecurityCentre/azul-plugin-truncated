@@ -1,2 +1,0 @@
-azul-runner>=3.1.0
-xxhash
