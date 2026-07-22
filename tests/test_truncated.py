@@ -31,8 +31,7 @@ class TestTruncated(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="c57b36912f69bb3c680d0f213a959443b2e98cd7479e595be45715e3fd5b9bb7",
+                        sha256="c57b36912f69bb3c680d0f213a959443b2e98cd7479e595be45715e3fd5b9bb7",
                         features={
                             "leading_partial_hash": [FV("e9c572df647153a9", label="0x1000")],
                             "trailing_partial_hash": [FV("6408c50909f60912", label="0x1000")],
@@ -83,8 +82,7 @@ class TestTruncated(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="39af08d3477203cb8188c88db44b6dcfebe2ba901ea6b35977d814cf29e87dbf",
+                        sha256="39af08d3477203cb8188c88db44b6dcfebe2ba901ea6b35977d814cf29e87dbf",
                         features={
                             "leading_partial_hash": [
                                 FV("c83a9f65195a7d7a", label="0x1000"),
